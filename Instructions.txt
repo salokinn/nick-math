@@ -1,0 +1,6 @@
+Cam --> Nick
+--
+Instructions:
+1. Define everything in the Calculator class that you can
+2. Title the file with your name and your screenname, the date of start, any collaborators names and their screennames, and a brief description of the point of the class - what is it going to do?
+--
