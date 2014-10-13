@@ -1,6 +1,5 @@
 Cam --> Nick
 --
 Instructions:
-1. Define everything in the Calculator class that you can
-2. Title the file with your name and your screenname, the date of start, any collaborators names and their screennames, and a brief description of the point of the class - what is it going to do?
+1. In the space in the Calculator class file I provided at the bottom, describe how you think indentation should be used for organization purposes.  To help, observe the way Eclipse auto-generated our stub of code and how it indented it.
 --
