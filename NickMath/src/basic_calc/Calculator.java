@@ -31,8 +31,13 @@ public class Calculator {
 		System.out.println("ac = " + a*c);
 		
 		//Division
-		// TODO (from now on, wherever I put todo's is where I want you to work)
-
+		int d = 2;
+		int e = 4;
+		int f = 8;
+		System.out.println("e/d =" + e/d);
+		System.out.println("f/d =" + f/d);
+		System.out.println("f/e =" + f/e);
+		
 	}
 	
 }
