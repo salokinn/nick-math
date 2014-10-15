@@ -19,5 +19,6 @@ public class Calculator {  //the class is the individual file within the package
 
 /* 
  * Indentation comment here:
- * 
+ * Parameters of the code should be first, and then indent to start the main string, and indent further to write any secondary strings/"if" statements indented once more
+ *
  */
