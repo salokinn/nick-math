@@ -1,24 +1,38 @@
-//Nick Wagner aka. salokinn
-//Cam Wagner aka. awesomemancam
-//Date started: 10/12/2014
-//This class will create a basic calculator that can add, subtract, multiply, and divide numbers
+//Nicholas Wagner - salokinn
+//Camden Wagner - awesomemancam
+//Date: 10/12/2014 through *
+//This class will create a basic calculator that can add, subtract, multiply, and divide numbers.
 
-package basic_calc; //package name
 
-public class Calculator {  //the class is the individual file within the package for organization
+/* The point of indentation is to organize code.
+ * Code does not look good when it is columns of words, it looks great when it is blocked to fit the
+ * PARENTHESIS.  The brackets are the definition of blocks of code, so space out your code based on
+ * the brackets.  Observe my commenting above to see how you should, from now on, comment things.
+ * 
+ * Then observe the work I did inside the main function.  See if you can replicate it somehow, and
+ * comment how you did it.
+ */
 
-	public static void main(String[] args) { //the main string is what happens when the file is run
-		// TODO Auto-generated method stub //auto generated comment
+
+package basic_calc;
+
+//main class
+public class Calculator {
+
+	//main function
+	public static void main(String[] args /*For now, the parameter String[] args means nothing to us.*/ ) {
+		
+		//Multiplication
+		int a = 0;
+		int b = 2;
+		int c = 3;
+		System.out.println("ab = " + a*b);
+		System.out.println("bc = " + b*c);
+		System.out.println("ac = " + a*c);
+		
+		//Division
+		// TODO (from now on, wherever I put todo's is where I want you to work)
 
 	}
 	
-}//brackets block up the code
-//line numbers
-
-
-
-/* 
- * Indentation comment here:
- * Parameters of the code should be first, and then indent to start the main string, and indent further to write any secondary strings/"if" statements indented once more
- *
- */
+}

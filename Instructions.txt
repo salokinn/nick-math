@@ -1,5 +1,5 @@
 Cam --> Nick
 --
 Instructions:
-1. In the space in the Calculator class file I provided at the bottom, describe how you think indentation should be used for organization purposes.  To help, observe the way Eclipse auto-generated our stub of code and how it indented it.
+Read the comments made in the Calculator class
 --
