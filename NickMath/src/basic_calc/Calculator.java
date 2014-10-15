@@ -4,13 +4,11 @@
 //This class will create a basic calculator that can add, subtract, multiply, and divide numbers.
 
 
-/* The point of indentation is to organize code.
- * Code does not look good when it is columns of words, it looks great when it is blocked to fit the
- * PARENTHESIS.  The brackets are the definition of blocks of code, so space out your code based on
- * the brackets.  Observe my commenting above to see how you should, from now on, comment things.
+/* TODO
+ * Write three identical output lines for addition and for subtraction, but this time
+ * use the integers a,b,c for addition and d,e,f for subtraction.  There IS a hint below.
  * 
- * Then observe the work I did inside the main function.  See if you can replicate it somehow, and
- * comment how you did it.
+ * Sidenote: correct errors on lines 35-37
  */
 
 
@@ -20,7 +18,7 @@ package basic_calc;
 public class Calculator {
 
 	//main function
-	public static void main(String[] args /*For now, the parameter String[] args means nothing to us.*/ ) {
+	public static void main(String[] args) {
 		
 		//Multiplication
 		int a = 0;
@@ -37,6 +35,15 @@ public class Calculator {
 		System.out.println("e/d =" + e/d);
 		System.out.println("f/d =" + f/d);
 		System.out.println("f/e =" + f/e);
+		
+		//Addition
+		//HINT: (run program to discover)
+		a = 7;
+		System.out.println("a = " + a);
+		//TODO
+		
+		//Subtraction
+		//TODO
 		
 	}
 	
