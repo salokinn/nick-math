@@ -2,16 +2,6 @@
 //Camden Wagner - awesomemancam
 //Date: 10/12/2014 through *
 //This class will create a basic calculator that can add, subtract, multiply, and divide numbers.
-
-
-/* TODO
- * Write three identical output lines for addition and for subtraction, but this time
- * use the integers a,b,c for addition and d,e,f for subtraction.  There IS a hint below.
- * 
- * Sidenote: correct errors on lines 35-37
- */
-
-
 package basic_calc;
 
 //main class
@@ -32,19 +22,25 @@ public class Calculator {
 		int d = 2;
 		int e = 4;
 		int f = 8;
-		System.out.println("e/d =" + e/d);
-		System.out.println("f/d =" + f/d);
-		System.out.println("f/e =" + f/e);
+		System.out.println("e/d = " + e/d);
+		System.out.println("f/d = " + f/d);
+		System.out.println("f/e = " + f/e);
 		
 		//Addition
-		//HINT: (run program to discover)
-		a = 7;
-		System.out.println("a = " + a);
-		//TODO
-		
+		System.out.println("a+b = " + a+b);
+		System.out.println("a+c = " + a+c);
+		System.out.println("c+b = " + c+b);
+		/* For some reason when I type a+c it actually gives me 03, the two digits that are given
+		 * as the integers for a and c.
+		 */
 		//Subtraction
-		//TODO
-		
+		System.out.println("f-d = " + f+ -d);
+		System.out.println("f-e = " + f+ -e);
+		System.out.println("e-d = " + e+ -d);
+		/* For subtraction the dash showed an error so I tried adding a negative and when I ran it
+		 * it came up as the values subtracted with a dash. However, it may just be putting the digits
+		 * in order again like it did for addition but now it is putting in the dash.
+		 */
 	}
 	
 }
