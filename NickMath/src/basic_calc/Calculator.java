@@ -2,6 +2,15 @@
 //Camden Wagner - awesomemancam
 //Date: 10/12/2014 through *
 //This class will create a basic calculator that can add, subtract, multiply, and divide numbers.
+
+
+/*
+ * So, here's your problem. The plus sign '+', connects the strings being output to the console,
+ * it doesn't add them or subtract them.  What you could do is assign variables, but DEFINE them
+ * using the current ones you have, not just numbers... like you did on likes 23-25 and 31-33
+ */
+
+
 package basic_calc;
 
 //main class
@@ -27,20 +36,12 @@ public class Calculator {
 		System.out.println("f/e = " + f/e);
 		
 		//Addition
-		System.out.println("a+b = " + a+b);
-		System.out.println("a+c = " + a+c);
-		System.out.println("c+b = " + c+b);
-		/* For some reason when I type a+c it actually gives me 03, the two digits that are given
-		 * as the integers for a and c.
-		 */
+		//TODO
+
+
 		//Subtraction
-		System.out.println("f-d = " + f+ -d);
-		System.out.println("f-e = " + f+ -e);
-		System.out.println("e-d = " + e+ -d);
-		/* For subtraction the dash showed an error so I tried adding a negative and when I ran it
-		 * it came up as the values subtracted with a dash. However, it may just be putting the digits
-		 * in order again like it did for addition but now it is putting in the dash.
-		 */
+		//TODO
+
 	}
 	
 }
