@@ -1,0 +1,56 @@
+//Nicholas Wagner - salokinn
+//Camden Wagner - awesomemancam
+//Date: 10/12/2014 through *
+//This class will create a basic calculator that can add, subtract, multiply, and divide numbers.
+
+
+/*
+ * So, here's your problem. The plus sign '+', connects the strings being output to the console,
+ * it doesn't add them or subtract them.  What you could do is assign variables, but DEFINE them
+ * using the current ones you have, not just numbers... like you did on likes 23-25 and 31-33
+ * 
+ * Redo the multiplication and division to get back into the swing of things.  Then move on to
+ * addition and subtraction. If you forget syntax come and ask me.
+ */
+
+
+package basic_calc;
+
+//main class
+public class Calculator {
+
+	//main method
+	public static void main(String[] args) {
+
+		//Multiplication and Division
+		int a = 2;
+		int b = 4;
+		int c = 8;
+		System.out.println("ab = " + a*b);
+		System.out.println("ac = " + a*c);
+		System.out.println("bc = " + b*c);
+		System.out.println("c/b = " + c/b);
+		System.out.println("b/a = " + b/a);
+		System.out.println("c/a = " + c/a);
+		
+		//Addition
+		int z = a+b;
+		int y = a+c;
+		int x = c+b;
+		System.out.println("a+b = " + z);
+		System.out.println("a+c = " + y);
+		System.out.println("b+c = " + x);
+				
+		//Subtraction
+		int u = b-a;
+		int v = c-a;
+		int w = c-b;
+		System.out.println("b-a = " + u);
+		System.out.println("c-a = " + v);
+		System.out.println("c-b = " + w);
+		
+
+	}
+
+}
+
