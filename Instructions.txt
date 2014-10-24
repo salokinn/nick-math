@@ -1,5 +1,0 @@
-Cam --> Nick
---
-Instructions:
-Read the comments made in the Calculator class
---
